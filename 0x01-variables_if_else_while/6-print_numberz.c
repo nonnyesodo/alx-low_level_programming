@@ -14,7 +14,7 @@ int main(void)
 	while (c < 10)
 	{
 		putchar(48 + c);
-		c++
+		c++;
 	}
 
 	putchar('\n');
