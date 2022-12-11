@@ -2,10 +2,10 @@
 #include <stdio.h>
 
 /**
-*main - main block
-*description:prints the lowercase alphabet in reverse
-*followed by a new line
-*Return: 0
+ *main - main block
+ *description:prints the lowercase alphabet in reverse
+ *followed by a new line
+ *Return: 0
  */
 int main(void)
 {
