@@ -13,12 +13,12 @@ int main(void)
 
 	for (n = 0 ; n <= 9 ; n++)
 	{
-		for (m = 0 ; m <= 9 ; m++)
+		for (m = '0' ; m <= '9' ; m++)
 		{
 			putchar(n);
 			putchar(m);
 
-			if ((n != 9) || (m == 8))
+			if ((n != '9') || (m == '8'))
 			{
 				putchar(',');
 				putchar(' ');
