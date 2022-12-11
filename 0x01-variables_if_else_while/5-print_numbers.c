@@ -1,6 +1,4 @@
-#include <stdlib.h>
 #include <stdio.h>
-#include <time.h>
 
 /**
  *main - main block
@@ -17,6 +15,6 @@ int main(void)
 		printf("%i", num);
 	}
 
-	putchar("/n");
+	printf("/n");
 	return (0);
 }
